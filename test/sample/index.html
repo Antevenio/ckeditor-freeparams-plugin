@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CKEditor Free Params Sample</title>
+  <script src="../../bower_components/ckeditor/ckeditor.js"></script>
+</head>
+
+<body>
+  <form action="." method="post">
+    <textarea cols="80" id="editor" name="editor" rows="10">
+      Foo Bar
+    </textarea>
+  </form>
+  <script>
+    var config = {
+      extraPlugins: 'freeparams',
+      freeparams:
+      {
+        label: 'mylabel',
+        title: 'mytitle',
+        groups: [
+        {
+          label: 'group1',
+          values: [
+          {
+            id: '[id11]',
+            text: 'text11'
+          },
+          {
+            id: '[id12]',
+            text: 'text12'
+          }]
+        },
+        {
+          label: 'group2',
+          values: [
+          {
+            id: '[id21]',
+            text: 'text21'
+          },
+          {
+            id: '[id22]',
+            text: 'text22'
+          }]
+        }]
+      }
+    };
+    CKEDITOR.plugins.addExternal('freeparams', '../../freeparams/');
+    CKEDITOR.replace('editor', config);
+  </script>
+</body>
+
+</html>

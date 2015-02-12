@@ -1,0 +1,17 @@
+{
+  "name": "ckeditor-freeparams-plugin",
+  "version": "0.0.1",
+  "homepage": "https://github.com/antevenio/ckeditor-freeparams-plugin",
+  "authors": [],
+  "license": "MIT",
+  "dependencies": {
+    "ckeditor": ">= 4.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
