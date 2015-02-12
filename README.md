@@ -8,7 +8,8 @@ This plugin allow you to insert a value from a grouped rich combo.
 Extract the downloaded file into the CKEditor's **plugins** folder or use another path like:
 
 ```javascript
-        CKEDITOR.plugins.addExternal('freeparams', '/bower_components/ckeditor-freeparams-plugin/freeparams/');
+        CKEDITOR.plugins.addExternal('freeparams', 
+          '/bower_components/ckeditor-freeparams-plugin/freeparams/');
 ```
 ## Configuration
 
