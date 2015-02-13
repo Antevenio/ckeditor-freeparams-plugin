@@ -23,7 +23,7 @@
             nValues = group.values.length;
             for (j = 0; j < nValues; j++) {
               value = group.values[j];
-              this.add(value.id, value.text, value.text);
+              this.add(value.value, value.label, value.label);
             }
           }
         },
