@@ -6,10 +6,11 @@
       editor.ui.addRichCombo('freeparams', {
         label: freeparams.label,
         title: freeparams.title,
+        toolbar: (freeparams.toolbar || 'paragraph'),
         multiSelect: false,
         panel: {
           css: [
-            config.contentsCss,
+            editor.config.contentsCss,
             CKEDITOR.getUrl(CKEDITOR.skin.getPath('editor') + 'editor.css')
           ],
           multiSelect: false
