@@ -9,6 +9,7 @@
       label: freeparams.label,
       title: freeparams.title,
       toolbar: (freeparams.toolbar || 'paragraph'),
+      className: 'cke_freeparams',
       multiSelect: false,
       panel: {
         css: [
