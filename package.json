@@ -1,0 +1,16 @@
+{
+    "name": "ckeditor-freeparams-plugin",
+    "version": "0.0.5",
+    "description": "This plugin allow you to insert params from multiples grouped richcombos.",
+    "main": "ckeditor",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Antevenio/ckeditor-freeparams-plugin.git"
+    },
+    "author": "Antevenio",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Antevenio/ckeditor-freeparams-plugin/issues"
+    },
+    "homepage": "https://github.com/Antevenio/ckeditor-freeparams-plugin#README"
+}
